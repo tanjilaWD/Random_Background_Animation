@@ -32,15 +32,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
-
+    flex-direction: column;
 }
 .content h1{
     font-size: 25px;
     margin: 0 0 .5rem;
 }
 .content p{
-    opacity: .9;
     margin: 0;
     color: black;
 }
