@@ -1,0 +1,41 @@
+*{
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orchid;
+    overflow: hidden;
+    background-color: white;
+    background-image: 
+    linear-gradient(to right, #0000001a 1px, transparent 1px),
+    linear-gradient(to bottom, #0000001a 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+.icon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    opacity: 0.85;
+    pointer-events: none;
+}
+.content{
+    position: relative;
+    z-index: 2;
+    text-align:2rem;
+}
+.content h1{
+    font-size: 25px;
+    margin: 0 0 .5rem;
+}
+.content p{
+    opacity: .9;
+    margin: 0;
+    color: black;
+}
+
