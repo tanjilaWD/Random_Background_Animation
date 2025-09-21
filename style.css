@@ -16,7 +16,7 @@
     linear-gradient(to right, #0000001a 1px, transparent 1px),
     linear-gradient(to bottom, #0000001a 1px, transparent 1px);
     background-size: 20px 20px;
-    opacity: 30%;
+    /* opacity: 30%; */
 }
 .icon{
     position: absolute;
@@ -24,6 +24,7 @@
     height: 40px;
     opacity: 60%;
     pointer-events: none;
+    opacity: 30%;
 }
 .content{
     position: relative;
